@@ -54,6 +54,7 @@ if(CMAKE_VERSION VERSION_LESS 3.21.0)
     set(PROJECT_IS_TOP_LEVEL OFF)
   endif()
 endif()
+set(PROJECT_IS_TOP_LEVEL ON)
 
 #==============================================================================
 # Build ON/OFF Settings.
